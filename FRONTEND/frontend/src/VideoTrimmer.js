@@ -31,7 +31,7 @@ const VideoTrimmer = ({ onButtonClick }) => {
 
   useEffect(() => {
     // Assuming the combined video is named output.mp4
-    setVideoSrc(`${connection_string}output.mp4`);
+    // setVideoSrc(`${connection_string}output.mp4`);
     const fetchVideo = async () => {
       try {
         const response = await fetch(

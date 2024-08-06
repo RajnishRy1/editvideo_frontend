@@ -26,7 +26,7 @@ const VideoDownload = ({ onButtonClick }) => {
 
     try {
       setStatus("downloading");
-      const response = await axios.post(`${connection_string}/download`, {
+      const response = await axios.post(`${connection_string}download`, {
         ytUrl: url,
       });
       console.log(response.data);
